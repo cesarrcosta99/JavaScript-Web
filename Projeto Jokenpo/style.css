@@ -73,3 +73,9 @@ button:hover {
 .machine-score span {
     color: red;
 }
+
+.result {
+    margin-top: 5px;
+    color: #9ee01a;
+    font-size: 30px;
+}

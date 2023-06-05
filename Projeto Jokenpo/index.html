@@ -15,15 +15,16 @@
 
 
         <div class="emoticon">
-        <button id="rock">&#x1F44A</button>
-        <button id="paper">&#x1f590</button>
-        <button id="scissors">&#X270c</button>
+        <button id="rock" onclick="playHuman('pedra')">&#x1F44A</button>
+        <button id="paper" onclick="playHuman('papel')">&#x1f590</button>
+        <button id="scissors" onclick="playHuman('tesoura')">&#X270c</button>
     </div>
 
-        <p class="your-score">Sua pontuação: <span class=>0</span></p>
-        <p class="machine-score">Pontuação da Alexa: <span class=>0</span></p>
+        <p class="your-score">Sua pontuação: <span>0</span></p>
+        <p class="machine-score">Pontuação da Alexa: <span>0</span></p>
+        <p class="result"></p>
     </div>
-    <p class="result">Alexa</p>
+    
 </body>
 <script src="./script.js"></script>
 
